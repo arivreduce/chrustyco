@@ -7,7 +7,11 @@ const Wrapper = styled.nav`
     padding: 1rem 2rem;
     height: 4.375rem;
     width: 100%;
+    font-size: 1.25rem;
     justify-content: space-between;
+    font-family: 'Abril Fatface', serif;
+    font-weight: 400;
+    font-style: normal;
   }
   .logo {
     height: 3rem;
@@ -35,11 +39,20 @@ const Wrapper = styled.nav`
     font-size: 1.5rem;
     color: var(--textColor);
   }
-
+  .nav-center-icons .search-icon:hover {
+    color: var(--link-hover-color);
+    border-bottom: 2px solid var(--link-hover-color);
+    cursor: pointer;
+  }
   .cart-icons {
     display: flex;
     align-items: center;
     column-gap: 0.75rem;
+  }
+  .cart-icons:hover {
+    color: var(--link-hover-color);
+    border-bottom: 2px solid var(--link-hover-color);
+    cursor: pointer;
   }
 `;
 

@@ -15,7 +15,7 @@ const Navbar = () => {
           </li>
         </ul>
         <div className="nav-center-icons">
-          <IoSearch />
+          <IoSearch className="search-icon" />
           <div className="cart-icons">
             <FaCartShopping />
             <span>0</span>
