@@ -1,12 +1,28 @@
-import logo from '../../assets/icon-cropped.png';
+import { IoSearch } from 'react-icons/io5';
+import { FaCartShopping } from 'react-icons/fa6';
+import Wrapper from '../../assets/wrappers/Navbar';
 
 const Navbar = () => {
   return (
-    <nav>
+    <Wrapper>
       <div className="nav-center">
-        <img src={logo} alt="logo" style={{ height: '5rem' }} />
+        <ul>
+          <li>
+            <a href="/products">Products</a>
+          </li>
+          <li>
+            <a href="/contact">Contact</a>
+          </li>
+        </ul>
+        <div className="nav-center-icons">
+          <IoSearch />
+          <div className="cart-icons">
+            <FaCartShopping />
+            <span>0</span>
+          </div>
+        </div>
       </div>
-    </nav>
+    </Wrapper>
   );
 };
 export default Navbar;
