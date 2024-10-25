@@ -16,10 +16,10 @@ const Navbar = () => {
         </ul>
         <div className="nav-center-icons">
           <IoSearch className="search-icon" />
-          <div className="cart-icons">
+          <a href="/cart" className="cart-icons">
             <FaCartShopping />
             <span>0</span>
-          </div>
+          </a>
         </div>
       </div>
     </Wrapper>

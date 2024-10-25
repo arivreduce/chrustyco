@@ -23,7 +23,6 @@ const Wrapper = styled.nav`
     align-items: center;
   }
   .nav-center ul a {
-    text-decoration: none;
     color: var(--textColor);
     text-underline-offset: 0.5rem;
   }
@@ -39,6 +38,7 @@ const Wrapper = styled.nav`
     font-size: 1.5rem;
     color: var(--textColor);
   }
+
   .nav-center-icons .search-icon:hover {
     color: var(--link-hover-color);
     border-bottom: 2px solid var(--link-hover-color);
@@ -48,6 +48,7 @@ const Wrapper = styled.nav`
     display: flex;
     align-items: center;
     column-gap: 0.75rem;
+    color: var(--textColor);
   }
   .cart-icons:hover {
     color: var(--link-hover-color);

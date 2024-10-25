@@ -38,3 +38,7 @@ html {
   --view-width: 90vw;
   --link-hover-color: #97d78c;
 }
+
+a {
+  text-decoration: none;
+}
