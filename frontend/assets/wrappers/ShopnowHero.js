@@ -7,9 +7,8 @@ const Wrapper = styled.section`
   height: 92.5vh;
   width: 100%;
   border: 1px solid red;
-  background-image: url('./assets/hero-shop-now.jpeg');
-  background-size: cover;
-  background-position: center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('./assets/hero-shop-now.jpeg') center center / cover;
   .shop-now-btn {
     display: flex;
     justify-content: center;
@@ -23,6 +22,7 @@ const Wrapper = styled.section`
     border-radius: var(--border-radius-sm);
     background: transparent;
     cursor: pointer;
+    font-family: var(--secondary-font);
   }
   .shop-now-btn:hover {
     background: var(--white);
