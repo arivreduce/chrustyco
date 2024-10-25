@@ -39,6 +39,8 @@ html {
   --link-hover-color: #97d78c;
   --hero-text-color: #fff;
   --border-radius-sm: 2px;
+  --main-font: 'Abril Fatface', serif;
+  --secondary-font: 'DM Sans', sans-serif;
 }
 
 a {
