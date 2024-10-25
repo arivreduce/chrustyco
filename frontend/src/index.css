@@ -37,6 +37,8 @@ html {
   --fixed-width: 600px;
   --view-width: 90vw;
   --link-hover-color: #97d78c;
+  --hero-text-color: #fff;
+  --border-radius-sm: 2px;
 }
 
 a {
