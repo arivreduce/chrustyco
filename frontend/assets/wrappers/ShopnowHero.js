@@ -6,7 +6,6 @@ const Wrapper = styled.section`
   justify-content: center;
   height: 92.5vh;
   width: 100%;
-  border: 1px solid red;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url('./assets/hero-shop-now.jpeg') center center / cover;
   .shop-now-btn {

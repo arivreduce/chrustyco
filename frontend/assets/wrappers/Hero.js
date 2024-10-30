@@ -7,7 +7,6 @@ const Wrapper = styled.section`
     justify-content: center;
     width: 100%;
     height: 13.625rem;
-    border: 1px solid red;
   }
   .hero-home a {
     font-family: 'Abril Fatface', serif;

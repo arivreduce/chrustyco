@@ -41,6 +41,7 @@ html {
   --border-radius-sm: 2px;
   --main-font: 'Abril Fatface', serif;
   --secondary-font: 'DM Sans', sans-serif;
+  --side-padding: 2.5rem;
 }
 
 a {

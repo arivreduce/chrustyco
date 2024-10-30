@@ -1,3 +1,4 @@
+import FeaturedProducts from '../components/FeaturedProducts';
 import Hero from '../components/Hero';
 import Navbar from '../components/Navbar';
 import SectionDivider from '../components/SectionDivider';
@@ -10,6 +11,7 @@ const Home = () => {
       <Hero />
       <ShopnowHero />
       <SectionDivider />
+      <FeaturedProducts />
     </div>
   );
 };
