@@ -8,6 +8,7 @@ const Wrapper = styled.section`
     width: 100%;
     height: 100%;
     object-fit: contain;
+    border-radius: var(--border-radius-sm);
   }
   button {
     width: 100%;
@@ -47,6 +48,26 @@ const Wrapper = styled.section`
     flex-direction: column;
     gap: 0.75rem;
   }
+  .category-container {
+    display: flex;
+    justify-content: center;
+    column-gap: 1.5rem;
+  }
+  .category {
+    font-family: var(--secondary-font);
+    color: var(--textColor);
+  }
+  .category img {
+    /* max-width: 100%; */
+    width: 18rem;
+    height: 18rem;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+  .category h3 {
+    font-weight: 600;
+    font-size: 1.25rem;
+  }
   h3 {
     font-size: 1.5rem;
   }
@@ -54,7 +75,7 @@ const Wrapper = styled.section`
     color: var(--textColor);
     font-family: var(--main-font);
     font-size: 2rem;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
   }
   a:hover {
     color: var(--link-hover-color);
