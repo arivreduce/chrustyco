@@ -8,6 +8,7 @@ const Wrapper = styled.section`
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url('./assets/hero-shop-now.jpeg') center center / cover;
+  margin-bottom: 4rem;
   .shop-now-btn {
     display: flex;
     justify-content: center;

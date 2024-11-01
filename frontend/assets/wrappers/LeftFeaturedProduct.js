@@ -1,9 +1,7 @@
 import styled from 'styled-components';
 
 const Wrapper = styled.a`
-  display: grid;
-  cursor: pointer;
-  height: 48.375rem;
+  grid-template-columns: 1fr 22.5rem;
 `;
 
 export default Wrapper;

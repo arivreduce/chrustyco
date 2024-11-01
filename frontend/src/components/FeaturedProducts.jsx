@@ -1,14 +1,19 @@
 import Wrapper from '../../assets/wrappers/FeaturedProducts';
 import LeftFeaturedProduct from './LeftFeaturedProduct';
-import SectionDivider from './SectionDivider';
+import { featuredProducts } from '../data';
+import RightFeaturedProduct from './RightFeaturedProduct';
+const { product1, product2, product3, product4, product5 } = featuredProducts;
 
 const FeaturedProducts = () => {
   return (
     <Wrapper>
       <div className="section-center">
         <h1>Featured Products</h1>
-        <SectionDivider />
-        <LeftFeaturedProduct />
+        <LeftFeaturedProduct {...product1} />
+        <RightFeaturedProduct {...product2} />
+        <LeftFeaturedProduct {...product3} />
+        <RightFeaturedProduct {...product4} />
+        <LeftFeaturedProduct {...product5} />
       </div>
     </Wrapper>
   );
