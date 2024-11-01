@@ -1,4 +1,5 @@
 import FeaturedProducts from '../components/FeaturedProducts';
+import Footer from '../components/Footer';
 import Hero from '../components/Hero';
 import Navbar from '../components/Navbar';
 import ShopnowHero from '../components/ShopnowHero';
@@ -10,6 +11,7 @@ const Home = () => {
       <Hero />
       <ShopnowHero />
       <FeaturedProducts />
+      <Footer />
     </div>
   );
 };

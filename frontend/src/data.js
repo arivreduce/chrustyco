@@ -46,3 +46,21 @@ export const categories = [
     id: nanoid(),
   },
 ];
+
+export const footerLinks = [
+  {
+    name: 'Home',
+    link: '/',
+    id: nanoid(),
+  },
+  {
+    name: 'Products',
+    link: '/products',
+    id: nanoid(),
+  },
+  {
+    name: 'Contact',
+    link: '/contact',
+    id: nanoid(),
+  },
+];

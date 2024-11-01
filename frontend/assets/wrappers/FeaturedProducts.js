@@ -56,6 +56,7 @@ const Wrapper = styled.section`
   .category {
     font-family: var(--secondary-font);
     color: var(--textColor);
+    cursor: pointer;
   }
   .category img {
     /* max-width: 100%; */
