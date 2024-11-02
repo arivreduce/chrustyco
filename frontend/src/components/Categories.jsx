@@ -6,9 +6,9 @@ const Categories = () => {
       <h1>Categories</h1>
       <div className="category-container">
         {categories.map((category) => {
-          const { id, name, img } = category;
+          const { id, name, img, link } = category;
           return (
-            <a className="category" key={id}>
+            <a className="category" key={id} href={link}>
               <img src={img} alt={name} />
               <h3>{name}</h3>
             </a>

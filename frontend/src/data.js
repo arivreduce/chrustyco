@@ -37,11 +37,13 @@ export const featuredProducts = {
 export const categories = [
   {
     name: 'Stickers',
+    link: '/products/stickers',
     img: AlienChrusty,
     id: nanoid(),
   },
   {
     name: 'Prints',
+    link: '/products/prints',
     img: LotusRisograph,
     id: nanoid(),
   },
