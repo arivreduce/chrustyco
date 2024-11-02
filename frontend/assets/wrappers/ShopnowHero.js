@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import heroImage from '../hero-shop-now.jpeg';
 
 const Wrapper = styled.section`
   display: flex;
@@ -7,7 +8,7 @@ const Wrapper = styled.section`
   height: 92.5vh;
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url('./assets/hero-shop-now.jpeg') center center / cover;
+    url(${heroImage}) center center / cover;
   margin-bottom: 4rem;
   .shop-now-btn {
     display: flex;
